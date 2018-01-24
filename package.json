@@ -4,6 +4,12 @@
   "description": "Nuxt.js project",
   "author": "relictos <relictos@mail.ru>",
   "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "80"
+    }
+   },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
