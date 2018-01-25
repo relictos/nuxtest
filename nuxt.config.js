@@ -40,6 +40,16 @@ module.exports = {
     { src: '~/plugins/element-ui', ssr: true}
   ],
   modules: [
+    '@nuxtjs/onesignal',
     '@nuxtjs/pwa',
   ],
+  oneSignal: {
+    init: {
+      appId: '19d312c2-af52-4db0-b47c-b4c8575d5a5a',
+      allowLocalhostAsSecureOrigin: true,
+      welcomeNotification: {
+          disable: true
+      }
+    }
+  }
 }

@@ -19,6 +19,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/onesignal": "^2.0.0",
     "@nuxtjs/pwa": "^2.0.5",
     "element-ui": "^2.0.11",
     "nuxt": "^1.0.0"
